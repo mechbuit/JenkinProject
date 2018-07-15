@@ -15,6 +15,7 @@ public class Jenkin {
 		driver.get("https://google.com");
 		System.out.println("google opened");
 		driver.quit();
+		System.out.println("browser closed");
 	}
 
 }
