@@ -11,7 +11,7 @@ public class Jenkin {
 	{
 		System.setProperty("webdriver.chrome.driver", ".\\Resources\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		System.out.println("Chrome browser launched");
+		System.out.println("Chrome browser opened");
 		driver.manage().window().maximize();
 		driver.get("https://google.com");
 		System.out.println("google opened");
